@@ -49,3 +49,22 @@ print(r2)
 #Matrix Union:  [[1, 0, 1], [1, 1, 1], [1, 1, 1]]
 #[('p', 'p'), ('p', 'r'), ('r', 'r')]
 #[('p', 'p'), ('p', 'r'), ('q', 'p'), ('q', 'q'), ('q', 'r'), ('r', 'p'), ('r', 'q'), ('r', 'r')]
+
+Procedure: At first, I declared a function named matrix_intersection. It has received two 
+parameters mat1 and mat2. Then I declared two variables rows and cols as well as evaluate the 
+length of the rows and cols. After that, I printed the length of rows and cols. Afterwards, I declared 
+an empty array named mat_inter. Then I used ‘for’ loop and calculating some specific tasks (matrix 
+intersection) and lastly returned the mat_inter array. 
+After that, I declared another function named matrix_union. It has also received two parameters. 
+Then I declared another empty array named mat_union. Afterwards, I used ‘for’ loop for 
+calculating some specific tasks (matrix union) and lastly returned mat_union function. Then I 
+initialized the matrix1 and matrix2. After that, I printed the matrix1 and matrix2.
+Afterwards, I called the matrix_intersection function and putted the result with a variable named 
+mi and then printed the mi variable.After that, I called the matrix_union function and putted the result with a variable named mu and 
+lastly printed the mu variable.
+Then I initialized a string and putted the value with a variable named v. After I declared an empty 
+array named r1. Afterwards, I declared a for loop and inside the for loop I declared another for 
+loop and also used ‘if” condition, if the condition is true I appended the some specific value with 
+r1. After that, I printed the r1.
+Then, I declared another empty array named r2. I used above process again and lastly I printed the 
+r2 variable
